@@ -17,4 +17,16 @@ Making a React application interactive requires the use of state, properties and
 
 ## Clone the project
 
+This module uses a starter project. To obtain the starter project, complete the following steps in a command or terminal window to clone the repository and open the starter folder in Visual Studio Code:
 
+```bash
+# Windows
+git clone https://github.com/GeekTrainer/learn-react
+cd learn-react\\code\\state-properties-events\\starter
+code .
+
+# macOS or Linux
+git clone https://github.com/GeekTrainer/learn-react
+cd learn-react/code/state-properties-events/starter
+code .
+```

@@ -8,7 +8,8 @@ To make components reusable, we typically pass the data to be displayed as props
 
 ## Adding title prop to RecipeTitle
 
-1. Open **src/index.js**
+1. Open the **starter** folder in Visual Studio Code as highlighted in the overview.
+1. Inside Visual Studio Code, open **src/index.js**
 1. Add the following code under the line `TODO: Add RecipeTitle render code`
 
     ```javascript
@@ -30,7 +31,7 @@ To make components reusable, we typically pass the data to be displayed as props
 
     The `title` attribute sets the `title` property in `RecipeTitle`.
 
-1. View the page! If you have not already started the site, open the Visual Studio Code integrated terminal by clicking **View > Terminal** or **Ctl-\`**. Run the following commands:
+1. View the page! Open the Visual Studio Code integrated terminal by clicking **View > Terminal** or **Ctl-\`**. Run the following commands:
 
     ```bash
     npm install
