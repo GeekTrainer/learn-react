@@ -8,7 +8,7 @@ React utilizes a special syntax known as **JavaScript XML** or **JSX**. JSX allo
 
 ### The build process
 
-Browsers do not natively support JSX. As a result, JavaScript and HTML must be generated from the JSX files to be rendered by a browser. There are numerous bundlers and other tools which can perform the necessary tasks, including Webpack, Parcel and Snowpack. We will use the tooling provided with React (which depends on Webpack) to generate the JavaScript and HTML. Fortunately, **no knowledge of Webpack is required.**
+Browsers do not natively support JSX. As a result, JavaScript and HTML must be generated from the JSX files to be rendered by a browser. There are numerous bundlers and other tools which can perform the necessary tasks, including [Webpack](https://webpack.js.org/), [Parcel](https://parceljs.org/), and [Snowpack](https://www.snowpack.dev/). We will use Snowpack as it does not require code or additional scripting.
 
 ## Components
 

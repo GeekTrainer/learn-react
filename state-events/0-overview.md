@@ -2,7 +2,6 @@ Making a React application interactive requires the use of state, properties and
 
 ## Objectives
 
-- Add properties to a component
 - Add state to an application
 - Add event handlers
 
@@ -22,11 +21,11 @@ This module uses a starter project. To obtain the starter project, complete the 
 ```bash
 # Windows
 git clone https://github.com/GeekTrainer/learn-react
-cd learn-react\\code\\state-properties-events\\starter
+cd learn-react\\code\\state-events\\starter
 code .
 
 # macOS or Linux
 git clone https://github.com/GeekTrainer/learn-react
-cd learn-react/code/state-properties-events/starter
+cd learn-react/code/state-events/starter
 code .
 ```

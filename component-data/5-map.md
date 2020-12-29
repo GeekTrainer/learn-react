@@ -1,4 +1,6 @@
-One of the most powerful tools available to JavaScript arrays is `map`. `map` allows you to create a modified copy of an array. This is useful when we need to convert the values of an array for display purposes. `map` is used quite frequently in React as it's the best way to display a list of items to a user.
+You will often find yourself working with collections of data stored in an array. While working with array data is similar to any other object, we do need the ability to loop through the data and display it to the user. As you might suspect, we do this in JSX by using JavaScript code. In particular, we will use the `map` function.
+
+`map` allows you to create a modified copy of an array. This is useful when we need to convert the values of an array for display purposes. When we think about displaying values to a user, we want to take the value and embed it inside an HTML element. This is a perfect job for `map`. With `map` we can create a new array consisting of HTML containing individual values in the array for display.
 
 ## Using map
 

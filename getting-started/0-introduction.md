@@ -4,16 +4,22 @@ React is an open source framework to create user interfaces. While most famous f
 
 - Understand the core concepts of React
 - Create a React application
-- Create components
-- Display dynamic data
-- Display lists of data
+- Create a component
 
 ## Project
 
-In this module we will build the initial page of a recipe management application. We will use React to display the title of the recipe and the list of ingredients.
+In this module we will create a starter project for React. We will introduce JSX, and the need for a web bundler. We will create our first components, and introduce the project structure.
 
 ## Prerequisites
 
+### Skills
+
 - Knowledge of HTML, CSS and JavaScript
-- [Node.js](https://nodejs.org) installed locally
+- Knowledge of package management with Node.js and `npm`
+- Knowledge of Git
+
+### Locally installed software
+
+- [Node.js](https://nodejs.org)
 - A code editor, such as [Visual Studio Code](https://code.visualstudio.com)
+- [git](https://git-scm.com/)

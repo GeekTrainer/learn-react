@@ -2,7 +2,7 @@ Properties (or props) and state are two of the most important parts of any React
 
 ## Props
 
-Props are values passed to React components. They are copies of the data, designed for the component to render itself. Props are read-only values.
+Props are values passed to React components. They are copies of the data, designed for the component to render itself. Props are immutable (read-only) values.
 
 ## State
 
