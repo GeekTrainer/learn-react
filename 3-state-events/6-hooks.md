@@ -2,7 +2,7 @@ Hooks are a common pattern in frameworks where values change or other events occ
 
 ## Effect hook
 
-In React 16.8 a hook named **Effect** was introduced. The Effect Hook is raised whenever state changes or the page is re-rendered. It allows you to execute code in response. The code you execute can have side effects, meaning you can update values as needed.
+Hooks were introduced in React 16.8. We're going to focus on the **Effect** Hook, which is raised whenever the state value is set, including the initial value and all subsequent updates. It allows you to execute code in response. The code you execute can have side effects, meaning you can update values as needed.
 
 ## When to use the Effect Hook
 
@@ -18,7 +18,7 @@ useEffect(() => {
 });
 ```
 
-By default, `useEffect` executes whenever state is changed on any stateful object. You can provide a filter to only enable the hook for a particular group of objects.
+By default, `useEffect` executes whenever state is changed on any stateful object. You can provide a dependency to only enable the hook for a particular group of objects.
 
 ```javascript
 useEffect(() => {

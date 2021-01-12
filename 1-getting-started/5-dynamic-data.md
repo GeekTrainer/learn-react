@@ -2,7 +2,7 @@ Components allow you to break an application down into logical components. We ma
 
 ## Display dynamic data
 
-If you wish to display dynamic data inside a component you use the syntax `{ }`, sometimes known as handlebars. This style of syntax is relatively common with HTML templating tools. If you wanted to display the current time, you could use the following code:
+If you wish to display dynamic data inside a component you use the syntax `{ }`, sometimes known as handlebars. This style of syntax is relatively common with HTML templating tools. With `{ }` you're effectively switching into JavaScript mode, which allows you to execute almost any valid JavaScript. If you wanted to display the current time, you could use the following code:
 
 ```javascript
 <div>{ Date.now() }</div>

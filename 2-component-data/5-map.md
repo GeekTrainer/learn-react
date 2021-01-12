@@ -27,9 +27,11 @@ console.log(squared);
 // Output: [4, 25, 64]
 ```
 
-## Accessing the index
+## Accessing the index to generate a key
 
-One reason some developers use `for` loops is to access the index the current item. Fortunately, `map` supports this by allowing you to add a second parameter. The second parameter will automatically be set to the current index.
+When displaying lists in React, it is a best practice to set a key for each item. This allows both React and you to refer to individual items currently being displayed, and relate them back to the bound data. The most common way to generate a key is to use the index of the item in the array.
+
+When using a `for` loop you inherently generate an index as part of the syntax. When using `map`, you can access the index by using a second parameter in the delegate function. The second parameter will automatically be set to the current index.
 
 ```javascript
 const squared = numbers.map((number, index) => {
