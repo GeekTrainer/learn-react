@@ -31,12 +31,12 @@ This module uses a starter project.
     ````bash
     # Windows
     git clone https://github.com/GeekTrainer/learn-react
-    cd learn-react\\code\\3-state-events\\starter
+    cd learn-react\\code\\2-component-events\\starter
     code .
 
     # macOS or Linux
     git clone https://github.com/GeekTrainer/learn-react
-    cd learn-react/code/3-state-events/starter
+    cd learn-react/code/2-component-events/starter
     code .
     ````
 

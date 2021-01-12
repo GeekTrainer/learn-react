@@ -1,4 +1,4 @@
-Unlike props, state is designed to be updated shared across components. It can be used to allow your application to respond to different events or changes in data. Stateful objects are registered in React by using `useState`, a helper function which provides both a reference to the stateful object and a function used to update the values.
+There are a few ways to manage state in React and we're going to focus on one of the main ways, React Hooks. To create state with Hooks we use the `useState` Hook, which provides us with the state object and an updater function to update the Hook value.
 
 ## Scenario
 

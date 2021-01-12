@@ -7,7 +7,7 @@ Our application allows the user to tap on individual items to mark them as prepa
 > ![IMPORTANT]
 > In our example we are modifying state inside `useEffect`. Remember `useEffect` by default executes whenever **any** stateful object is modified. This can create an endless loop where we modify state, the hook is executed, which modifies state, which executes the hook...
 >
-> To avoid this we can use the filter parameter on `useEffect` to only look at one particular object. We will do this when creating our code to avoid this endless loop.
+> To avoid this we can use the dependency parameter on `useEffect` to only look at one particular object. We will do this when creating our code to avoid this endless loop.
 
 ## Add the new state property
 
@@ -32,7 +32,7 @@ Our application allows the user to tap on individual items to mark them as prepa
 
     The code uses `setPrepared` to update `prepared` by using the [every](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/every) method which returns a boolean based on every item matching the criteria we specify. In our case we are looking to see if every item is prepared; if not it will return false.
 
-    The second parameter on `useEffect` is set to `[recipe]`. This provides the filter to ensure our code **only** runs when changes occur to the `recipe` object.
+    The second parameter on `useEffect` is set to `[recipe]`. This provides the dependency to ensure our code **only** runs when changes occur to the `recipe` object.
 
 ## Add the display
 

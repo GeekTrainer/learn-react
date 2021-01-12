@@ -1,4 +1,4 @@
-Making a React application interactive requires the use of state, properties and events. State is information shared throughout the entire application. Properties is information for use in an individual component. Events are actions typically performed by the user, such as clicking on a button. In this module we will explore how to implement state, properties and events in React.
+Creating an interactive application requires the ability to modify data and respond to user requests. In React, this is managed through state and events. State is data which can be updated and shared between various components throughout your application as needed. Events allow you to handle all the different ways a user can interact with your application - the clicks, typing, and taps.
 
 ## Objectives
 
