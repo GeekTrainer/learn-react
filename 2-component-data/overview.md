@@ -15,6 +15,7 @@ Passing properties into React components
 
 - React.js
 - Azure Static Web Apps
+- Visual Studio Code
 
 ## Prerequisites
 

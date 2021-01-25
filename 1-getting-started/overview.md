@@ -15,6 +15,7 @@ Getting started with React
 
 - React.js
 - Azure Static Web Apps
+- Visual Studio Code
 
 ## Prerequisites
 

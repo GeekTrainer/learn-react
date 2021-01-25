@@ -15,6 +15,7 @@ Working with state and events in React
 
 - React.js
 - Azure Static Web Apps
+- Visual Studio Code
 
 ## Prerequisites
 
